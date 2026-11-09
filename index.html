@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div id="tab">
+    <form>
+        <header>
+        <div id="heading">
+        <h3>My Tasks</h3>
+        <p id="time">Thursday November 5</p>
+        </div>
+        </header>
+        <main>
+        <div id="inp">
+        <input placeholder="What do you need to do?" id="search">
+        <button id="plus">+</button>
+        </div>
+        <div id="tabs">
+            <button class="content active" id="all">All</button>
+            <button class="content" id="active">Active</button>
+            <button class="content" id="completed">Completed</button>
+        </div>
+        <div id="plans">
+            <ul>
+            </ul>
+        </div>
+        <div id="empty">
+            <p>No tasks here yet</p>
+            <i class="fa-sharp fa-solid fa-clipboard-list" style="font-size: 3rem;"></i>
+        </div>
+        </main>
+        <footer>
+            <div id="footer">
+                <p>0 items left</p>
+                <button>clear completed</button>
+            </div>
+           <!--<div>
+                <p>0 items</p>
+                <p>Clear Completed</p>
+            </div>-->
+        </footer>
+    </form>
+    </div>
+    <script src="days&months.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

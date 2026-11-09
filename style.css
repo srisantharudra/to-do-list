@@ -1,0 +1,107 @@
+body{
+    background-color: purple;
+}
+form{
+    height:350px;
+    width:300px;
+    border:2px solid aliceblue;
+    border-radius: 1rem;
+    background-color: white;
+}
+#heading{
+    background-color: blueviolet;
+    height: 60px;
+    border-top: 2px solid blueviolet;
+    border-top-left-radius: 0.70rem;
+    border-top-right-radius: 0.70rem;
+}
+h3{
+    margin: 0%;
+    color: aliceblue;
+}
+#time{
+    margin: 0%;
+    color: aliceblue;
+}
+#search{
+    width:250px;
+    border:2px solid aliceblue;
+    border-radius: 0.50rem;
+    height: 30px;
+}
+#plus{
+    background-color: blueviolet;
+    color: aliceblue;
+    border:2px solid aliceblue;
+    border-radius: 0.50rem;
+    width:35px;
+}
+#inp{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+#tab{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: flex-end;
+}
+#tabs{
+    margin-top: 15px;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.content{
+    width:80px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+#empty{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+footer div{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    margin: 0%;
+    padding-left: 0%;
+    list-style-type: none;
+}
+#plans{
+    overflow-y: auto;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+footer button{
+    width: 100px;
+    height: 40px;
+    background-color:white;
+    border: 1px solid white;
+    color: black;
+    font-size: 100%;
+}
+footer button:hover{
+    color:red;
+    text-decoration: underline;
+}
+footer p{
+    margin: 0%;
+    padding-top:10px;
+}
+.content.active{
+    color: purple;
+    text-decoration: underline;
+}
+#empty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
