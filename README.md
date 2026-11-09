@@ -21,18 +21,19 @@ A simple and interactive To-Do List web application built using HTML, CSS, and J
 
 📂 Project Structure
 
-Todo-List/
+to do list
 │
 ├── index.html
 ├── style.css
-├── script.js
+├── app.js
+├── days&months.js
 └── README.md
 
 ⚙️ How to Run the Project
 
 1. Clone this repository:
    
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/srisantharudra/to-do-list
 
 2. Open the project folder.
 
